@@ -1,6 +1,6 @@
 {
   "name": "openclaw-exa-search",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "OpenClaw plugin for Exa AI search — web, code, company, Twitter/X, people, and financial report search.",
   "engines": {
     "node": ">=18"

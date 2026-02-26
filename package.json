@@ -1,6 +1,6 @@
 {
   "name": "openclaw-exa-search",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "OpenClaw plugin for Exa AI search — web, code, company, Twitter/X, people, and financial report search.",
   "engines": {
     "node": ">=18"
@@ -17,6 +17,9 @@
   "keywords": ["openclaw", "openclaw-plugin", "exa", "search", "web-search", "code-search", "company-research", "twitter-search", "people-search", "financial-reports", "ai", "neural-search", "mcp"],
   "author": "sawyer0x110",
   "license": "MIT",
+  "openclaw": {
+    "extensions": ["./dist/index.js"]
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/sawyer0x110/openclaw-exa-search"

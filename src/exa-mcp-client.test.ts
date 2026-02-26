@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from "vitest";
-import { parseSSEResponse, extractTextContent, callExa } from "./exa-mcp-client.js";
+import { parseSSEResponse, extractTextContent, callExa } from "./exa-mcp-client";
 
 describe("parseSSEResponse", () => {
   it("extracts data from SSE format", () => {

@@ -11,7 +11,7 @@ import {
   twitterSearch,
   peopleSearch,
   financialSearch,
-} from "./exa-mcp-client.js";
+} from "./exa-mcp-client";
 
 const TIMEOUT = 30_000;
 

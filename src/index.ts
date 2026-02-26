@@ -12,7 +12,7 @@ import {
   twitterSearch,
   peopleSearch,
   financialSearch,
-} from "./exa-mcp-client.js";
+} from "./exa-mcp-client";
 
 interface ToolDefinition {
   name: string;

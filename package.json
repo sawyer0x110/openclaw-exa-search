@@ -1,6 +1,6 @@
 {
   "name": "openclaw-exa-search",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Exa AI search integration for OpenClaw — web, code, company, Twitter/X, people, and financial report search. No API key required.",
   "engines": {
     "node": ">=18"

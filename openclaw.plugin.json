@@ -1,0 +1,11 @@
+{
+  "id": "openclaw-exa-search",
+  "name": "Exa Search",
+  "version": "1.0.0",
+  "description": "Exa AI search integration for OpenClaw — web search, code search, company research, Twitter/X search, people search, and financial report search. No API key required.",
+  "author": "sawyer0x110",
+  "license": "MIT",
+  "repository": "https://github.com/sawyer0x110/openclaw-exa-search",
+  "keywords": ["search", "exa", "web", "code", "twitter", "financial"],
+  "main": "./dist/index.js"
+}

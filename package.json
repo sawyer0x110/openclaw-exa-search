@@ -1,11 +1,14 @@
 {
   "name": "openclaw-exa-search",
-  "version": "1.0.4",
+  "version": "1.0.3",
   "description": "Exa AI search integration for OpenClaw — web, code, company, Twitter/X, people, and financial report search. No API key required.",
   "engines": {
     "node": ">=18"
   },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
+    "build": "tsc",
     "test": "vitest run",
     "test:integration": "vitest run --config vitest.integration.config.ts",
     "test:watch": "vitest",
@@ -15,7 +18,7 @@
   "author": "sawyer0x110",
   "license": "MIT",
   "openclaw": {
-    "extensions": ["./src/index.ts"]
+    "extensions": ["./dist/index.js"]
   },
   "repository": {
     "type": "git",
@@ -26,7 +29,7 @@
     "vitest": "^3.0.0"
   },
   "files": [
-    "src",
+    "dist",
     "openclaw.plugin.json",
     "README.md"
   ]

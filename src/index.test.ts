@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from "vitest";
-import pluginInit, { TOOLS } from "./index";
+import pluginInit, { TOOLS } from "./index.js";
 
 describe("plugin registration", () => {
   it("registers all 6 tools", () => {

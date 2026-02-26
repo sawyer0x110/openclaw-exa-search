@@ -54,6 +54,7 @@ npm install
 npm run typecheck
 npm test              # unit tests
 npm run test:integration  # integration tests (hits real Exa endpoint)
+npm run build
 ```
 
 ## Notes

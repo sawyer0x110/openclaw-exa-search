@@ -9,13 +9,7 @@
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "paths": {
-      "openclaw/plugin-sdk/*": [
-        "./node_modules/openclaw/dist/plugin-sdk/*.d.ts",
-        "./node_modules/openclaw/dist/plugin-sdk/*"
-      ]
-    }
+    "forceConsistentCasingInFileNames": true
   },
   "include": ["src"],
   "exclude": ["node_modules", "dist", "**/*.test.ts"]

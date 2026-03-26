@@ -1,6 +1,7 @@
 {
   "name": "openclaw-exa-search",
-  "version": "1.0.5",
+  "version": "2.0.0",
+  "type": "module",
   "description": "Exa AI search integration for OpenClaw — web, code, company, Twitter/X, people, and financial report search. No API key required.",
   "engines": {
     "node": ">=18"
@@ -14,15 +15,42 @@
     "test:watch": "vitest",
     "typecheck": "tsc --noEmit"
   },
-  "keywords": ["openclaw", "openclaw-plugin", "exa", "search", "web-search", "code-search", "company-research", "twitter-search", "people-search", "financial-reports", "ai", "neural-search", "mcp"],
+  "keywords": [
+    "openclaw",
+    "openclaw-plugin",
+    "exa",
+    "search",
+    "web-search",
+    "code-search",
+    "company-research",
+    "twitter-search",
+    "people-search",
+    "financial-reports",
+    "ai",
+    "neural-search",
+    "mcp"
+  ],
   "author": "sawyer0x110",
   "license": "MIT",
   "openclaw": {
-    "extensions": ["./dist/index.js"]
+    "extensions": [
+      "./dist/index.js"
+    ]
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/sawyer0x110/openclaw-exa-search"
+  },
+  "peerDependencies": {
+    "openclaw": ">=2025.0.0"
+  },
+  "peerDependenciesMeta": {
+    "openclaw": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "@sinclair/typebox": "^0.34.0"
   },
   "devDependencies": {
     "typescript": "^5.7.0",
